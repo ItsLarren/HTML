@@ -1,0 +1,85 @@
+@import url(file:///C:/Users/ADMIN/OneDrive/Desktop/PlaceHolder_Yumul,LarrenJoy_D._BSCpE_2D/Placeholder.HTML');  
+ *{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Lexend Deca', sans-serif;*/
+
+ }
+ body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+ }
+ .box-container{
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+ }
+.box{
+    width: 269px;
+    padding: 15px;
+    min-height: 430px;
+}
+.box1{
+    background-color:  hsl(278, 77%, 72%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.box2{
+    background-color: hsl(293, 92%, 42%);
+}
+.box3{
+    background-color: hsl(295, 82%, 33%); 
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.content{
+    padding: 10px;
+}
+h1{
+    color: hsl(187, 100%, 87%); 
+    text-transform: uppercase;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 20px 0;
+}
+p{
+    color: hsla(182, 72%, 59%, 0.89);
+    font-family: 'Big Shoulders Display', cursive
+}
+.btn{
+    margin: 60px 0;
+    padding: 15px 40px;
+    border: 0;
+    border-radius: 30px;
+    outline: none;
+    background-color: #3a0146;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+}
+.btn1{
+    color: #6a087e;
+}
+.btn2{
+    color: #6d0781;
+}
+.btn3{
+    color: #c91bec;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #3a0146;
+    color: #3a0146;
+    transition: 0.4s;
+}
+.footer{
+    border-bottom: #3a0146;
+}
